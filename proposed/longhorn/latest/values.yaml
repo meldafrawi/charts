@@ -2,6 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 image:
+  defaultImage: true
   longhorn:
     engine: longhornio/longhorn-engine
     engineTag: v0.8.0
@@ -26,6 +27,7 @@ persistence:
   defaultClassReplicaCount: 3
 
 csi:
+  defaultImage: true
   attacherImage:
   provisionerImage:
   driverRegistrarImage:
