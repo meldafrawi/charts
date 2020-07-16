@@ -1,7 +1,7 @@
 apiVersion: v1
 name: longhorn
-version: 1.0.1-rc2
-appVersion: v1.0.1-rc1
+version: 1.0.0
+appVersion: v1.0.0
 kubeVersion: ">=v1.14.0-r0"
 description: Longhorn is a distributed block storage system for Kubernetes powered by Rancher Labs.
 keywords:
@@ -20,8 +20,6 @@ sources:
 - https://github.com/longhorn/longhorn-ui
 - https://github.com/longhorn/longhorn-tests
 maintainers:
-- name: Longhorn maintainers
-  email: maintainers@longhorn.io
-- name: Sheng Yang
-  email: sheng@yasker.org
+- name: rancher
+  email: charts@rancher.com
 icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/longhorn/horizontal/color/longhorn-horizontal-color.svg?sanitize=true
